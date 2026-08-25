@@ -146,4 +146,13 @@ public class GradeAnalyzer {
             System.out.println("Could not write report: " + e.getMessage());
         }
     }
+
+    public static String getLetterGrade(int score) { 
+    if (score >= 90) return "A"; 
+    if (score >= 80) return "B";
+    if (score >= 70) return "C"; 
+    if (score >= 60) return "D"; 
+    return "F";
+    }
+    
 } 
