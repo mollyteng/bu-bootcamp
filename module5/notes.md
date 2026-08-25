@@ -1,7 +1,6 @@
-Command to compile test:
-
+- Command to compile test:
 `javac -cp ".;../lib/junit-platform-console-standalone-6.1.3.jar" GradeAnalyzerTest.java`
 
-Commond to run test from terminal:
 
+- Commond to run test from terminal:
 `java -jar ..\lib\junit-platform-console-standalone-6.1.3.jar execute --class-path . --select-class GradeAnalyzerTest`
