@@ -28,6 +28,10 @@ Stages all changed files in the current folder
 
 When you want to commit everything
 
+`git add -u`
+
+Stages all changed files in the current folder. Excluding untracked files.
+
 `git commit -m "msg"`
 
 Saves a snapshot with a message
